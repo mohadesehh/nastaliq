@@ -1,0 +1,62 @@
+@font-face {
+    font-family: nastaliq;
+    src: url("./font/IranNastaliq.ttf"), url("./font/IranNastaliq.eot"), url("./font/IranNastaliq.woff"), url("./font/IranNastaliq.woff2");
+}
+.submit{
+    width: 400px;
+    height: 600px;
+    background-color: black;
+    font-family: nastaliq;
+    color: whitesmoke;
+    text-align: center;
+    direction: rtl;
+    border: white 5px solid;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+body{
+    background-color: darkgrey;
+}
+
+
+#signup{
+    border-radius: 15px;
+    width: 100px;
+    font-family: nastaliq;
+    font-size: 20px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+#login{
+    border-radius: 15px;
+    width: 100px;
+    font-family: nastaliq;
+    font-size: 20px;
+    height: 45px;
+    text-align: center;
+
+}
+
+input[type=text] {
+    font-family: nastaliq;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+input[type=email]{
+    font-family: nastaliq;
+    border-radius: 15px;
+    text-align: center;
+}
+input[type=tel]{
+    font-family: nastaliq;
+    border-radius: 15px;
+    text-align: center;
+}
+input[type=password]{
+    font-family: nastaliq;
+    border-radius: 15px;
+    text-align: center;
+}
